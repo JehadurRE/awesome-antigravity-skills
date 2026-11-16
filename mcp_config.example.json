@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "canva-skills-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_server"
+      ],
+      "cwd": "/path/to/awesome-antigravity-skills",
+      "env": {
+        "CANVA_STATE_DIR": "~/.canva-skills-mcp"
+      }
+    },
+    "canva": {
+      "serverUrl": "https://mcp.canva.com/mcp"
+    }
+  }
+}

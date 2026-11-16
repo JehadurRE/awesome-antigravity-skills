@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# Environment & Local Credentials (NEVER commit tokens or client secrets)
+.env
+.env.*
+!.env.example
+canva_token*.json
+canva_accounts.json
+canva_client.json
+canva_auth_url*.txt
+*.flag
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

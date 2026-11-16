@@ -1,0 +1,29 @@
+{
+  "name": "awesome-antigravity-skills",
+  "displayName": "Awesome Antigravity Skills — Unified Canva Studio & MCP",
+  "version": "1.0.0",
+  "description": "Unified Canva Skills MCP server (multi-account OAuth rotation, remote Canva MCP proxy, universal design format presets, prepress PDF inspector) paired with Antigravity skills for creating any Canva design and PPTX presentations.",
+  "author": {
+    "name": "JehadurRE"
+  },
+  "repository": "https://github.com/JehadurRE/awesome-antigravity-skills",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "skills",
+    "canva",
+    "mcp",
+    "design",
+    "social-media",
+    "presentations",
+    "editorial",
+    "prepress",
+    "pptx"
+  ],
+  "suggestedPrompts": [
+    "Connect my Canva accounts and verify multi-account OAuth rotation",
+    "Create an Instagram carousel and matching 9:16 story in Canva for a product launch",
+    "Design a 10-slide 16:9 SaaS pitch deck in Canva using my brand colors",
+    "Create a print-ready US Letter 3-column report in Canva with 36pt safe margins and 11pt+ body text"
+  ]
+}

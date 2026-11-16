@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "canva-skills-mcp": {
+      "command": "python",
+      "type": "stdio",
+      "args": [
+        "-m",
+        "mcp_server"
+      ]
+    }
+  }
+}

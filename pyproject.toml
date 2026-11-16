@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canva-skills-mcp"
+version = "1.0.0"
+description = "Unified Canva Skills, Editorial Publication Standards, Multi-Account OAuth Rotation, and MCP Server for Antigravity and MCP clients"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "JehadurRE" }
+]
+keywords = ["antigravity", "skills", "canva", "mcp", "editorial-design", "prepress"]
+dependencies = []
+
+[project.optional-dependencies]
+prepress = ["pymupdf>=1.24.0"]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+canva-skills-mcp = "mcp_server.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["mcp_server*"]
